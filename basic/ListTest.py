@@ -11,7 +11,7 @@ print(names[0])
 names.append("join chi")
 print(names)
 # 在列表中插入元素
-names.insert(0,"迟世超")
+names.insert(0, "迟世超")
 print(names)
 # 删除元素
 del names[0]
@@ -23,4 +23,3 @@ print(names)
 
 names.remove("李四")
 print(names)
-

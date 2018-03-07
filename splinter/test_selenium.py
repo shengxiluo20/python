@@ -1,9 +1,6 @@
-from time import sleep
-
 from selenium import webdriver
 
-ie = webdriver.Ie()
-ie.get("http://www.baidu.com")
-
-ie.find_element_by_id("kw").send_keys("selenium")
-ie.find_element_by_id("su").click()
+driver = webdriver.Chrome()
+driver.maximize_window()
+driver.get('https://www.jd.com/?cu=true')
+driver.find_element_by_class_name("link-login").click()
